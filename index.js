@@ -77,5 +77,7 @@ function addPrefix(number, prefix, comparator) {
 }
 
 const inputs = process.argv.slice(2);
-console.log(JSON.stringify(updateDictionary(JSON.parse(inputs[0]))));
+if (inputs && inputs.length > 0) {
+    console.log(JSON.stringify(updateDictionary(JSON.parse(inputs[0]))));
+}
 exports.updateDictionary = updateDictionary;
