@@ -1,0 +1,21 @@
+{
+  "name": "Augment-Dictionary",
+  "description": "Add new date value which is average of previous and next date value",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "devDependencies": {
+    "jest": "25.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "private": true
+}
